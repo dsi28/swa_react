@@ -15,14 +15,14 @@
         "identityProviders": {
           "azureActiveDirectory": {
             "registration": {
+              "openIdIssuer": "https://login.microsoftonline.com/672af6f6-4bee-42dd-9ce3-43cc6e0d4ea6/v2.0",
+              "clientIdSettingName": "AZURE_CLIENT_ID",
+              "clientSecretSettingName": "AZURE_CLIENT_SECRET"     
+            },
+            "registration2": {
               "openIdIssuer": "https://login.microsoftonline.com/ea072142-0056-44e6-a23d-7bc01d3eca77/v2.0",
               "clientIdSettingName": "AZURE_CLIENT_ID_2",
               "clientSecretSettingName": "AZURE_CLIENT_SECRET_2"
-            },
-            "registration2": {
-              "openIdIssuer": "https://login.microsoftonline.com/672af6f6-4bee-42dd-9ce3-43cc6e0d4ea6/v2.0",
-              "clientIdSettingName": "AZURE_CLIENT_ID",
-              "clientSecretSettingName": "AZURE_CLIENT_SECRET"              
             }
           }
         }
